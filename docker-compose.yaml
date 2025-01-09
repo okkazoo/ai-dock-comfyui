@@ -86,4 +86,4 @@ services:
         - SYNCTHING_UI_PORT_HOST=${SYNCTHING_UI_PORT_HOST:-8384}
         - SYNCTHING_TRANSPORT_PORT_HOST=${SYNCTHING_TRANSPORT_PORT_HOST:-22999}
         - SYNCTHING_URL=${SYNCTHING_URL:-}
-        #- PROVISIONING_SCRIPT=${PROVISIONING_SCRIPT:-}
+        - PROVISIONING_SCRIPT=${PROVISIONING_SCRIPT:-https://gist.githubusercontent.com/okkazoo/b78d395da7e2f6acc9b4bc2fe44d99d1/raw/ec62f809856bd0d375dacd3b457a2526b801c07e/comfyui-provisioning-default.sh}
